@@ -1,7 +1,7 @@
 class Player
-  attr_reader :player_name, :lives
+  attr_reader :name, :lives
   def initialize(player_number)
-    @player_name = "Player #{player_number}"
+    @name = "Player #{player_number}"
     @lives = 3
   end
 
